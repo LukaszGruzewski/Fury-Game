@@ -8,9 +8,10 @@ module.exports = {
         filename: 'out.js'
     },
     devServer: {
-        contentBase: path.join(__dirname, ''),
+        contentBase: path.join(__dirname, '/'),
         compress: true,
         port: 9000,
+
     },
     watch: true,
     module: {
@@ -24,5 +25,5 @@ module.exports = {
             }
         ]
     },
-    mode: 'development'
+
 };

@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "jazda": "./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server --hot --inline"
+    "dev": "./node_modules/.bin/webpack-dev-server"
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
